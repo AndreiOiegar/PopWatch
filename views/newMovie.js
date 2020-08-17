@@ -17,7 +17,7 @@ function validateFormElement(inputElement, errorMessage) {
     }
 }
 
-
+ 
 function buildErrorMessage(inputEl, errorMsg) {
     inputEl.classList.add("inputError");
     inputEl.style.border = "1px solid #FAC70C";

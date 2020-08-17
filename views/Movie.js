@@ -20,7 +20,7 @@ class Movie {
         <a href="/pages/details.html?id=${this._id}"><img src='${this.Poster}' /></a>
         `;
         return movieElement;
-    }
+    } 
 
     showSingleMovie() {
         let movieElement = document.createElement("div");

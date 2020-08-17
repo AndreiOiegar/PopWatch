@@ -14,4 +14,4 @@ signOutBtn.addEventListener("click", () => {
     localStorage.removeItem("accessToken");
     console.log("token removed");
     signOutBtn.style.display = "none";
-})
+}) 

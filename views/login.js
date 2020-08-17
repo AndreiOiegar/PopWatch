@@ -23,7 +23,7 @@ loginButton.addEventListener("click", async (event) => {
             const loginFailMsg = document.getElementById("login-fail");
             loginFailMsg.style.display = "flex";
         }
-    }
+    } 
 });
 
 function loginFormValidation() {

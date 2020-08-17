@@ -32,7 +32,7 @@ const displaySingleMovie = async () => {
             window.location.replace("home.html")
         }
     })
-    hideEditButton();
+    hideEditButton(); 
 }
 
 displaySingleMovie();

@@ -54,7 +54,7 @@ async function displayMoviesPage(page) {
 }
 
 displayMoviesPage(currentPageAllMovies);
-
+ 
 function displayPreviousMovies() {
 
     if (currentPageAllMovies === 0) { return false }

@@ -29,7 +29,7 @@ document.getElementById("searchByGenre").addEventListener("click", (event) => {
     document.querySelector(".btnGenreR").style.display = "flex";
     currentPageMoviesListGenre = 0;
     displayMovies("moviesSearchedByGenre", "Genre=" + inputGenre, currentPageMoviesListGenre)
-})
+}) 
 
 document.getElementById("searchByLanguage").addEventListener("click", (event) => {
     event.preventDefault();

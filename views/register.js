@@ -53,5 +53,5 @@ function registerFormValidation(){
         inputPassword2.classList.remove("input-fail");
         passError2.style.display = "none";
     }
-}
+} 
 

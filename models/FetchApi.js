@@ -9,7 +9,7 @@ class FetchApi {
                 headers: {
                     "Content-Type": "application/x-www-form-urlencoded"
                 }
-            })
+            }) 
             .then(response => {
                 let resp = response.json();
                 return resp;
